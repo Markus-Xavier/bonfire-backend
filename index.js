@@ -14,7 +14,7 @@ const port = 4000;
 
 io.on('connection', (socket) => {
   console.log('a user connected');
-})
+});
 
 server.listen(port, () => {
   console.log(`listening on ${port}`);
