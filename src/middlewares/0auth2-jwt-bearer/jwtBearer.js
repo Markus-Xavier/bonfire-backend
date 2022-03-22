@@ -1,8 +1,8 @@
 const { auth } = require('express-oauth2-jwt-bearer');
 
 const checkJwt = auth({
-  audience: 'http://bonfire/api',
-  issuerBaseURL: 'http://localhost:3000'
+  audience: 'https://bonfire/api',
+  issuerBaseURL: 'https://dev-c-6l4ag3.us.auth0.com/'
 });
 
 module.exports = checkJwt;
